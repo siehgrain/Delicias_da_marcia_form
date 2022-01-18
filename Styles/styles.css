@@ -1,54 +1,45 @@
+.navbar
+{
+    background-color: rgb(21, 38, 41); 
+    height: 50px;
+}
+.Links
+{
+margin: 10px;
+display:inline;
+color: #f8b372;
+}
+a
+{
+  color: #f8b372;
+  position: relative;
+  margin: 10px;
+top: 15px;
+transform: translateY(-50%);
+text-decoration: #f8b372;
+font-family:sans-serif;
+}
 body {
-background-color: aquamarine;
-font-family: sans-serif;
-align-content: center;
-align-items: center;
-text-align: center;
-margin: 50px;
-  }
-  .radio-buttons {
-   display:inline-block;
+  display: block;
+  margin: 0px;
+  background-color:rgb(60,108,116); 
 }
-.stepper-input {
-    display: flex;
-    font-size: 1.5em;
-    justify-content: center;
-    padding: 1px;
-}
-   
-   
-.btn{
-    cursor: pointer;
-    padding: 1em;
-    color: #fff;
-    background-color: #121212;
-    border: 1px solid #121212;
-}
-   
-
-.btn:hover{
-    background-color: #fff;
-    color: #121212;
-}
-  
-   
-.btn-left{
-    border-radius: 10px 0 0 10px;
-}
-  
-
-.btn-right{
-    border-radius: 0 10px 10px 0 ;
-   
-}
-   
-.input-box {
-    border: 1px solid #121212;
+.btn
+{
+position: absolute;
+left: 1700px;
+top: 0px;
+background-color: #f8b372; /* Green */
+    border:solid;
+    border-radius: 40px;
+    padding: 10px 10px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
-.container{
-    
+.s{
+  color: rgb(60,108,116);
+  position: relative;
+  top: 2px;
 }
-   
-
-
